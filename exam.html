@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take Exam - Job Exam Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Online Job Exam</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="exam.html">Take Exam</a>
+            <a href="result.html">Results</a>
+        </nav>
+    </header>
+
+    <main>
+        <form id="examForm">
+            <div class="question">
+                <p>1. What is the capital of Bangladesh?</p>
+                <label><input type="radio" name="q1" value="Dhaka"> Dhaka</label>
+                <label><input type="radio" name="q1" value="Chittagong"> Chittagong</label>
+            </div>
+
+            <div class="question">
+                <p>2. 5 + 7 = ?</p>
+                <label><input type="radio" name="q2" value="10"> 10</label>
+                <label><input type="radio" name="q2" value="12"> 12</label>
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Job Exam Portal</p>
+    </footer>
+</body>
+</html>
